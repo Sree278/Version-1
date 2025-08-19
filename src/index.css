@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+  input, textarea, select {
+    color: #fff !important;
+    background: #1c1c1c !important;
+    border-color: #444 !important;
+  }
+  input::placeholder, textarea::placeholder {
+    color: #bbb !important;
+  }
+  .Polaris-Select__Input {
+    color: #fff !important;
+    background: #1c1c1c !important;
+    border-color: #444 !important;
+  }
+  .Polaris-Label {
+    color: #fff !important;
+  }
+  select option {
+    color: #fff !important;
+    background: #1c1c1c !important;
+  }
+}
+/* Remove Tailwind directives if not using Tailwind CSS build tools */
+/* If you intend to use Tailwind, ensure your build process includes Tailwind CSS and PostCSS */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+}

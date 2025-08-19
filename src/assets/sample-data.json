@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": "1", "email": "user1@example.com", "role": "user", "company": "ABC Earth Movers" },
+    { "id": "2", "email": "admin@example.com", "role": "superadmin" }
+  ],
+  "invoices": [
+    { "id": "inv1", "customerName": "XYZ Constructions", "breakerNumber": "BR123", "bucketNumber": "BK456", "amount": 15000, "date": "2025-08-01", "status": "pending" }
+  ],
+  "subscriptions": [
+    { "id": "sub1", "userId": "1", "plan": "free", "startDate": "2025-08-01", "endDate": "2025-08-08", "status": "active" }
+  ]
+}
